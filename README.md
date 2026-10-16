@@ -66,7 +66,7 @@ events ──► кандидаты (ItemKNN top‑100 ∪ популярное 
   дней top‑50, просмотренное исключено. ~140 кандидатов на пользователя; recall кандидатов — потолок любого ранкера.
 - **Base** (общие для всех моделей): age, income, sex, kids_flg, content_type, age_rating, for_kids (как
   `cat_features` CatBoost), release_year, knn_score, knn_rank, pop7_rank, pop30_rank.
-- **CatBoost**: depth 6, lr 0.05, до 2000 деревьев, early stopping 100 по val; одинаковые гиперпараметры для всех
+- **CatBoost**: depth 6, lr 0.1, до 1000 деревьев, early stopping 50 по val; одинаковые гиперпараметры для всех
   наборов признаков; 3 сида. Обучение на T4 (`task_type=GPU`).
 
 ### Ручной набор (Hand, 35 признаков)

@@ -7,7 +7,7 @@ from sklearn.metrics import log_loss, roc_auc_score
 from features import BASE, CAT, base, compute
 
 FAST = dict(iterations=300, learning_rate=0.1, depth=6, early_stopping_rounds=30)    # search loop
-FULL = dict(iterations=2000, learning_rate=0.05, depth=6, early_stopping_rounds=100)  # reported models
+FULL = dict(iterations=1000, learning_rate=0.1, depth=6, early_stopping_rounds=50)  # reported models
 K = 10
 
 

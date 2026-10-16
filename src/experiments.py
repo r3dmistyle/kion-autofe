@@ -54,9 +54,9 @@ class Exp:
         with open(f'{self.out}/{step}.json', 'w') as f:
             json.dump(obj, f, indent=1, ensure_ascii=False)
 
-    def frames(self, feats):
+    def frames(self, feats, weeks=None):
         tr = pd.concat([R.train_rows(R.frame(self.con, f, feats, self.cache)).assign(qid=lambda d, i=i: d.user_id * 10 + i)
-                        for i, f in enumerate(self.train_folds)], ignore_index=True)
+                        for i, f in enumerate(self.train_folds[:weeks])], ignore_index=True)
         return tr, R.frame(self.con, 'val', feats, self.cache), R.frame(self.con, 'test', feats, self.cache)
 
     def models(self, specs):
@@ -120,7 +120,7 @@ class Exp:
     def hand(self):
         seeds = list(range(self.a.seeds))
         specs = [('base', [], seeds, 'Logloss'), ('hand', F.HAND, seeds, 'Logloss'), ('hand_yetirank', F.HAND, [0], 'YetiRank')]
-        specs += [(f'hand_minus_{fam}', [n for n in F.HAND if F.family(n) != fam], seeds, 'Logloss') for fam in ('user', 'item', 'pair')]
+        specs += [(f'hand_minus_{fam}', [n for n in F.HAND if F.family(n) != fam], [0], 'Logloss') for fam in ('user', 'item', 'pair')]
         rows, imps = self.models(specs)
         self.save('hand', {'rows': rows, 'importance': imps, 'hand_features': F.HAND})
 
@@ -158,7 +158,7 @@ class Exp:
         """Val/test NDCG of base + ONE feature while sweeping its window: is 7 days special?"""
         probes = ['item|f0|{w}|cnt|share|one', 'ui:genre|f0|{w}|cnt|share|max', 'iu:age|f0|{w}|cnt|share|one']
         names = [p.format(w=w) for p in probes for w in F.WINS]
-        tr, va, te = self.frames(names)
+        tr, va, te = self.frames(names, weeks=1)  # latest train week only: 43 fits
         out = []
         for n in [None] + names:
             m = R.fit(tr, va, [n] if n else [], R.FAST, self.a.device, 0)
