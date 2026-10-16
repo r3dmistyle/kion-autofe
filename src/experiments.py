@@ -64,6 +64,7 @@ class Exp:
         rows, imps = [], {}
         for name, feats, seeds, loss in specs:
             t = time.time()
+            tr = va = te = None  # free the previous frames before building new ones
             tr, va, te = self.frames(feats)
             t_frame = time.time() - t
             for s in seeds:

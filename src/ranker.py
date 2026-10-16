@@ -14,7 +14,9 @@ K = 10
 def frame(con, fold, feats, cache=None, table=None):
     """Base columns + requested features for cand_<fold> (or `table`, a subset of its rows)."""
     df = base(con, fold, table)
-    df[CAT] = df[CAT].astype(object)
+    df[CAT] = df[CAT].astype('category')  # object strings cost GBs at 100k users and get copied into every Pool
+    num = [c for c in BASE if c not in CAT]
+    df[num] = df[num].astype(np.float32)
     return pd.concat([df, pd.DataFrame(compute(con, fold, feats, cache, table))], axis=1)
 
 

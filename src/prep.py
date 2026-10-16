@@ -120,7 +120,7 @@ def connect(n_users, seed=0):
     d = os.path.join(ROOT, 'cache', f'n{n_users}_s{seed}')
     os.makedirs(d, exist_ok=True)
     con = duckdb.connect(os.path.join(d, 'kion.duckdb'))
-    con.execute("SET memory_limit = '4GB'")  # leave RAM for pandas/CatBoost on a 12 GB Colab VM
+    con.execute("SET memory_limit = '3GB'")  # leave RAM for pandas/CatBoost on a 12 GB Colab VM
     tables = set(con.sql('SHOW TABLES').fetchnumpy().get('name', []))
     if 'user_attr' not in tables:
         download()
