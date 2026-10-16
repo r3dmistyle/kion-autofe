@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+data/
+cache/
+logs/
+results/*/peruser/
+.DS_Store
