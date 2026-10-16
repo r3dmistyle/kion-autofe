@@ -78,7 +78,7 @@ class Exp:
                              'train_rows': len(tr), 'frame_s': t_frame, 'fit_s': t_fit,
                              **{f'val_{k}': v for k, v in rv.items()}, **{f'test_{k}': v for k, v in rt.items()}})
                 print(name, s, f"val ndcg {rv['ndcg@10']:.4f} test ndcg {rt['ndcg@10']:.4f} fit {t_fit:.0f}s", flush=True)
-            imps[name] = dict(zip(m.feature_names_, map(float, m.get_feature_importance())))
+            imps[name] = dict(zip(m.feature_names_, map(float, m.get_feature_importance(type='PredictionValuesChange'))))
         return rows, imps
 
     def cost(self, feats):

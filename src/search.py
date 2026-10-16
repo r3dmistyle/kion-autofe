@@ -78,7 +78,7 @@ def search(con, device='cpu', train_users=None, val_users=None, chunk=200, pool=
     imp = {}
     for i, ch in enumerate(chunks):
         m, _ = fit(ch, 'screen')
-        fi = dict(zip(m.feature_names_, m.get_feature_importance()))
+        fi = dict(zip(m.feature_names_, m.get_feature_importance(type='PredictionValuesChange')))
         imp.update({n: float(fi[n]) for n in ch})
         drop(ch)
         log(f'screen {i + 1}/{len(chunks)}  {time.time() - t1:.0f}s')
