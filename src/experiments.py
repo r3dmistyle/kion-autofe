@@ -129,7 +129,8 @@ class Exp:
         sub = lambda f: None if not self.a.search_users else np.sort(rng.choice(
             prep.nrel(self.con, f).index.to_numpy(), min(self.a.search_users, len(prep.nrel(self.con, f))), replace=False))
         res = S.search(self.con, self.a.device, sub('train'), sub('val'), self.a.chunk, self.a.pool,
-                       self.a.mut_fits, self.a.eps, self.a.seed, log=lambda s: print(s, flush=True))
+                       self.a.mut_fits, self.a.eps, self.a.seed, log=lambda s: print(s, flush=True),
+                       state_path=f'{self.out}/search_state.json')
         self.save('search', res)
 
     def auto(self):

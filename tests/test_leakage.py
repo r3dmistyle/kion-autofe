@@ -11,6 +11,7 @@ import pandas as pd
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'src'))
 import features as F  # noqa: E402
 import prep  # noqa: E402
+import search as S  # noqa: E402
 
 FOLD = 'val'
 T = prep.FOLDS[FOLD]
@@ -94,4 +95,11 @@ for r in cand.sample(200, random_state=0).itertuples():
     want = (0.5 ** (ev[ev.item_id == r.item_id].days / 7)).sum()
     assert np.isclose(got['item|f0|hl7|cnt|raw|one'][r.rid], want, rtol=1e-4), ('item', r, want)
 
-print(f'ok: {len(cand_a)} candidates, {len(names)} features unchanged by {len(future)} future events; SQL == pandas')
+# 4) the search runs end to end and a second call resumes from the finished checkpoint without refitting
+prep.candidates(a, 'train')
+state = os.path.join(tempfile.mkdtemp(), 'state.json')
+r1 = S.search(a, chunk=5000, pool=3, mut_fits=2, state_path=state, log=lambda s: None)
+r2 = S.search(a, chunk=5000, pool=3, mut_fits=2, state_path=state, log=lambda s: None)
+assert r1['selected'] == r2['selected'] and r1['fits'] == r2['fits'] and r1['fits']['screen'] == 2, (r1['fits'], r2['fits'])
+
+print(f'ok: {len(cand_a)} candidates, {len(names)} features unchanged by {len(future)} future events; SQL == pandas; search resumes')
