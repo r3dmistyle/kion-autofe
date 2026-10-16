@@ -258,12 +258,16 @@ def main():
     ap.add_argument('--mut-fits', type=int, default=60)
     ap.add_argument('--eps', type=float, default=5e-4)
     ap.add_argument('--search-from', default='', help='dir with search.json to reuse (scaling runs)')
+    ap.add_argument('--force', action='store_true', help='recompute steps whose results already exist')
     a = ap.parse_args()
     steps = a.steps.split(',')
     if steps == ['report']:
         return report()
     e = Exp(a)
     for s in steps:
+        if os.path.exists(f'{e.out}/{s}.json') and not a.force:
+            print(f'== {s}: {e.out}/{s}.json exists, skipped (--force to redo)', flush=True)
+            continue
         t = time.time()
         print(f'== {s}', flush=True)
         getattr(e, s)()
