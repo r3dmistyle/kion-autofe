@@ -1,0 +1,89 @@
+{
+ "prep_s": 12.508234024047852,
+ "events": 142258,
+ "folds": {
+  "train3": {
+   "cand_rows": 334179.0,
+   "users": 2320.0,
+   "cand_positives": 2365.0,
+   "label_items": 6299.0,
+   "cand_recall": 0.46370914232681093
+  },
+  "train2": {
+   "cand_rows": 360773.0,
+   "users": 2532.0,
+   "cand_positives": 2543.0,
+   "label_items": 6683.0,
+   "cand_recall": 0.46494763810049466
+  },
+  "train": {
+   "cand_rows": 354262.0,
+   "users": 2540.0,
+   "cand_positives": 2652.0,
+   "label_items": 7199.0,
+   "cand_recall": 0.4449935650107512
+  },
+  "val": {
+   "cand_rows": 388313.0,
+   "users": 2753.0,
+   "cand_positives": 2795.0,
+   "label_items": 7421.0,
+   "cand_recall": 0.44386767796212234
+  },
+  "test": {
+   "cand_rows": 401961.0,
+   "users": 2891.0,
+   "cand_positives": 2835.0,
+   "label_items": 7765.0,
+   "cand_recall": 0.4263559742218387
+  }
+ },
+ "rows": [
+  {
+   "model": "popular_7d",
+   "fold": "val",
+   "ndcg@10": 0.13528394722788126,
+   "recall@10": 0.20844395123565304,
+   "map@10": 0.09273520311381606,
+   "auc": 0.7884782629334779
+  },
+  {
+   "model": "item_knn",
+   "fold": "val",
+   "ndcg@10": 0.0993530379354673,
+   "recall@10": 0.14538395741499532,
+   "map@10": 0.06892328916337358,
+   "auc": 0.5894308664333519
+  },
+  {
+   "model": "popular_7d",
+   "fold": "test",
+   "ndcg@10": 0.13072001144587325,
+   "recall@10": 0.20514421809389471,
+   "map@10": 0.08608277787843682,
+   "auc": 0.7921390425027539
+  },
+  {
+   "model": "item_knn",
+   "fold": "test",
+   "ndcg@10": 0.10046373936144203,
+   "recall@10": 0.15149387834523598,
+   "map@10": 0.06862118218990326,
+   "auc": 0.6017884063451127
+  }
+ ],
+ "cold_test_popular": {
+  "users": 1433,
+  "ndcg@10": 0.2523383460882215,
+  "recall@10": 0.372379296052164,
+  "map@10": 0.19063647072382492
+ },
+ "env": {
+  "device": "gpu",
+  "host": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "cpus": 2,
+  "n_users": 25000,
+  "train_weeks": 3
+ },
+ "peak_mb": 906.7734375
+}

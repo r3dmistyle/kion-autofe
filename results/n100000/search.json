@@ -1,0 +1,1378 @@
+{
+ "selected": [
+  "iu:kids_flg|f10|d21|cnt|share|one",
+  "iu:age|f0|d7|rec|raw|one",
+  "item|f0|d14|rec|raw|one",
+  "iu:sex|f0|d7|dur|lift|one",
+  "iu:kids_flg|f10|d21|cnt|raw|one",
+  "iu:sex|f50|hl30|pct|raw|one",
+  "iu:income|f90|hl14|cnt|lift|one",
+  "ui:genre|f10|hl30|cnt|lift|mean",
+  "ui:director|f0|d7|dur|lift|sum"
+ ],
+ "val_ndcg_search": 0.15290003523360285,
+ "val_ndcg_base_search": 0.14167035807703973,
+ "pool": [
+  "iu:kids_flg|f0|d21|rec|raw|one",
+  "iu:sex|f10|d14|rec|raw|one",
+  "iu:kids_flg|f10|d21|cnt|share|one",
+  "iu:sex|f10|d90|cnt|raw|one",
+  "iu:age|f0|d7|rec|raw|one",
+  "item|f0|d14|rec|raw|one",
+  "item|f10|d30|pct|raw|one",
+  "iu:sex|f0|hl7|dur|share|one",
+  "iu:kids_flg|f10|hl90|cnt|raw|one",
+  "iu:kids_flg|f50|d14|rec|raw|one",
+  "iu:kids_flg|f50|d60|dur|lift|one",
+  "iu:kids_flg|f10|hl14|dur|lift|one",
+  "iu:sex|f0|d1|rec|raw|one",
+  "iu:sex|f0|d7|dur|lift|one",
+  "iu:sex|f0|d3|cnt|raw|one",
+  "item|f50|d1|dur|raw|one",
+  "iu:kids_flg|f10|d14|rec|raw|one",
+  "iu:age|f10|d14|rec|raw|one",
+  "iu:income|f10|hl30|cnt|raw|one",
+  "iu:age|f0|d7|cnt|share|one",
+  "iu:income|f0|hl90|dur|raw|one",
+  "iu:kids_flg|f0|d1|cnt|lift|one",
+  "iu:income|f0|d7|rec|raw|one",
+  "iu:kids_flg|f10|d21|cnt|raw|one",
+  "item|f0|d21|pct|raw|one",
+  "iu:sex|f50|hl30|pct|raw|one",
+  "iu:income|f10|d14|rec|raw|one",
+  "item|f50|d1|rec|raw|one",
+  "iu:age|f90|d7|rec|raw|one",
+  "iu:kids_flg|f10|hl14|cnt|lift|one",
+  "item|f0|d1|cnt|raw|one",
+  "iu:kids_flg|f50|d60|cnt|lift|one",
+  "iu:age|f0|d14|pct|raw|one",
+  "iu:kids_flg|f0|hl90|cnt|share|one",
+  "iu:income|f50|d21|dur|lift|one",
+  "iu:age|f50|d1|rec|raw|one",
+  "iu:income|f10|d90|pct|raw|one",
+  "iu:income|f90|d30|cnt|lift|one",
+  "iu:income|f10|hl3|pct|raw|one",
+  "iu:age|f0|d7|pct|raw|one",
+  "item|f0|d60|cnt|raw|one",
+  "iu:age|f50|d14|rec|raw|one",
+  "iu:kids_flg|f90|hl3|dur|raw|one",
+  "iu:kids_flg|f0|d1|dur|raw|one",
+  "iu:age|f0|d7|dur|share|one",
+  "iu:kids_flg|f50|d90|cnt|share|one",
+  "iu:sex|f0|d90|pct|raw|one",
+  "iu:sex|f50|d3|pct|raw|one",
+  "iu:sex|f10|d1|dur|share|one",
+  "iu:income|f0|d1|cnt|share|one",
+  "iu:age|f50|hl7|pct|raw|one",
+  "iu:income|f50|hl90|pct|raw|one",
+  "iu:sex|f90|hl90|pct|raw|one",
+  "iu:sex|f90|hl14|cnt|share|one",
+  "item|f50|d21|cnt|share|one",
+  "iu:sex|f0|d7|pct|raw|one",
+  "iu:sex|f50|d60|pct|raw|one",
+  "ui:genre|f10|hl30|cnt|lift|mean",
+  "ui:director|f0|d7|dur|lift|sum",
+  "iu:sex|f50|d90|dur|lift|one"
+ ],
+ "importance_top": {
+  "iu:kids_flg|f0|d21|rec|raw|one": 40.881722671408006,
+  "iu:sex|f10|d14|rec|raw|one": 25.460385753303814,
+  "iu:kids_flg|f10|d21|cnt|share|one": 22.687924522581884,
+  "iu:kids_flg|f0|all|rec|raw|one": 22.480554612008987,
+  "iu:sex|f10|d90|cnt|raw|one": 19.65853368313808,
+  "iu:age|f0|d7|rec|raw|one": 17.384930005957017,
+  "item|f0|d14|rec|raw|one": 17.25829706623308,
+  "item|f10|d30|pct|raw|one": 16.667209452490923,
+  "iu:sex|f0|hl7|dur|share|one": 16.479292679308085,
+  "iu:sex|f10|hl14|cnt|raw|one": 15.091489325263538,
+  "item|f10|all|rec|raw|one": 14.592833144095266,
+  "iu:kids_flg|f10|hl90|cnt|raw|one": 14.11081774170116,
+  "iu:kids_flg|f50|d14|rec|raw|one": 13.935619656297197,
+  "iu:kids_flg|f50|d60|dur|lift|one": 13.094715537832805,
+  "iu:age|f0|d14|rec|raw|one": 13.028846523498515,
+  "iu:kids_flg|f10|hl14|dur|lift|one": 12.841952457123382,
+  "iu:kids_flg|f0|d3|rec|raw|one": 12.589258067242879,
+  "iu:sex|f0|d1|rec|raw|one": 12.14226742680608,
+  "iu:sex|f0|d7|dur|lift|one": 12.053335021250511,
+  "item|f10|d7|rec|raw|one": 12.049145974191827,
+  "item|f0|d7|rec|raw|one": 11.824189401107109,
+  "item|f10|d3|rec|raw|one": 11.454918910303867,
+  "iu:kids_flg|f10|hl90|cnt|share|one": 11.386566085584798,
+  "iu:sex|f0|d14|rec|raw|one": 10.580669069548726,
+  "iu:sex|f0|d3|cnt|raw|one": 10.515064726715105,
+  "iu:sex|f10|d90|cnt|share|one": 10.126403459494831,
+  "iu:income|f10|hl30|cnt|share|one": 9.982143296254673,
+  "item|f50|d1|dur|raw|one": 9.96461371837465,
+  "iu:kids_flg|f10|d14|rec|raw|one": 9.813884204603163,
+  "iu:age|f10|d14|rec|raw|one": 9.71319929239687,
+  "iu:kids_flg|f0|d1|rec|raw|one": 9.308520177047331,
+  "iu:sex|f10|hl3|cnt|raw|one": 9.201917937661197,
+  "iu:income|f10|hl30|cnt|raw|one": 9.193067102644529,
+  "iu:age|f0|d7|cnt|share|one": 9.18669772507327,
+  "iu:sex|f0|d1|cnt|raw|one": 8.99403589677051,
+  "iu:income|f0|hl90|dur|raw|one": 8.803844856499202,
+  "iu:kids_flg|f0|d1|cnt|lift|one": 8.765981868915972,
+  "iu:income|f0|d7|rec|raw|one": 8.625376047280085,
+  "iu:kids_flg|f10|d21|cnt|raw|one": 8.350090310691103,
+  "iu:income|f0|d3|rec|raw|one": 8.17866158242784,
+  "item|f10|d30|cnt|share|one": 8.10298925099532,
+  "item|f0|d21|pct|raw|one": 7.97564779665138,
+  "iu:sex|f50|hl30|pct|raw|one": 7.831199721621066,
+  "iu:income|f10|d14|rec|raw|one": 7.694156447714514,
+  "item|f50|d1|rec|raw|one": 7.66236307777893,
+  "iu:kids_flg|f10|d1|cnt|share|one": 7.622589549566781,
+  "iu:age|f90|d7|rec|raw|one": 7.283986417552496,
+  "iu:kids_flg|f10|hl14|cnt|lift|one": 7.17474462446409,
+  "item|f0|d1|cnt|raw|one": 6.948090629360658,
+  "iu:kids_flg|f50|d60|cnt|lift|one": 6.899847487786481,
+  "iu:sex|f0|hl14|dur|raw|one": 6.825038547425297,
+  "iu:age|f0|d14|pct|raw|one": 6.76364615015728,
+  "iu:kids_flg|f0|hl90|cnt|share|one": 6.710707919524403,
+  "iu:kids_flg|f10|hl7|cnt|share|one": 6.586276024676821,
+  "item|f0|d1|rec|raw|one": 6.476694964964196,
+  "iu:sex|f10|hl14|cnt|share|one": 6.476682598807582,
+  "iu:income|f50|d21|dur|lift|one": 6.424553091052502,
+  "item|f50|hl3|dur|raw|one": 6.3421190689011055,
+  "item|f50|d14|rec|raw|one": 6.252909793923772,
+  "item|f50|hl90|dur|share|one": 6.174262927043475,
+  "iu:sex|f0|hl14|cnt|share|one": 6.153424307631753,
+  "iu:age|f50|d1|rec|raw|one": 6.15092935545907,
+  "iu:age|f0|hl3|cnt|share|one": 6.117094353456454,
+  "iu:sex|f0|d1|cnt|share|one": 6.070111540317346,
+  "iu:income|f10|d90|pct|raw|one": 6.025578222576728,
+  "iu:income|f90|d30|cnt|lift|one": 5.995280680074564,
+  "iu:kids_flg|f0|hl3|cnt|share|one": 5.962875528266313,
+  "iu:age|f0|d14|cnt|share|one": 5.910256326841076,
+  "iu:income|f0|d1|rec|raw|one": 5.899644496296945,
+  "iu:income|f10|hl3|pct|raw|one": 5.786073194535921,
+  "iu:age|f0|d7|pct|raw|one": 5.748098045604147,
+  "item|f0|d60|cnt|raw|one": 5.719740472929051,
+  "iu:income|f0|d3|cnt|share|one": 5.707065911504451,
+  "iu:age|f50|d14|rec|raw|one": 5.700997389829012,
+  "item|f10|d30|rec|raw|one": 5.640679662654875,
+  "iu:kids_flg|f90|hl3|dur|raw|one": 5.626117578137055,
+  "iu:income|f10|hl14|cnt|share|one": 5.626022629891333,
+  "iu:kids_flg|f0|d1|dur|raw|one": 5.575866425944672,
+  "iu:sex|f0|d7|dur|share|one": 5.551015420967034,
+  "item|f10|d7|dur|raw|one": 5.545386764504973,
+  "iu:age|f0|d7|dur|share|one": 5.526994497407006,
+  "iu:kids_flg|f50|d90|cnt|share|one": 5.505637896005378,
+  "iu:sex|f0|d90|pct|raw|one": 5.426098598337126,
+  "iu:sex|f0|d3|rec|raw|one": 5.366081864327455,
+  "item|f0|d21|cnt|share|one": 5.326460084078898,
+  "iu:sex|f0|d3|cnt|share|one": 5.324496948714524,
+  "item|f10|d90|cnt|share|one": 5.287083184664194,
+  "item|f0|d3|dur|share|one": 5.28698531986282,
+  "iu:sex|f50|d3|pct|raw|one": 5.244719737292363,
+  "iu:kids_flg|f0|d21|cnt|raw|one": 5.163319718698069,
+  "iu:age|f0|hl30|dur|share|one": 5.102633559830455,
+  "iu:kids_flg|f0|d3|cnt|share|one": 5.076261309341713,
+  "iu:sex|f10|d1|dur|share|one": 5.075088530989388,
+  "iu:income|f0|d1|cnt|share|one": 5.04511441901868,
+  "iu:income|f0|d7|cnt|share|one": 4.930188062330027,
+  "iu:age|f50|hl7|pct|raw|one": 4.892851761739574,
+  "iu:kids_flg|f10|d3|cnt|share|one": 4.855420608845878,
+  "iu:sex|f0|d7|cnt|share|one": 4.8004829012751475,
+  "iu:income|f50|hl90|pct|raw|one": 4.776363426719234,
+  "item|f10|d30|dur|raw|one": 4.709027989842424,
+  "iu:sex|f90|hl90|pct|raw|one": 4.675689288989312,
+  "iu:sex|f10|d14|dur|share|one": 4.67025091651942,
+  "iu:sex|f90|hl14|cnt|share|one": 4.631828366670379,
+  "iu:kids_flg|f0|hl7|cnt|share|one": 4.603039566888883,
+  "iu:kids_flg|f10|all|cnt|share|one": 4.592807751512202,
+  "item|f50|d7|rec|raw|one": 4.509687018834536,
+  "iu:sex|f0|hl7|dur|raw|one": 4.44122081363766,
+  "iu:age|f10|d7|rec|raw|one": 4.437261744544358,
+  "item|f50|d21|cnt|share|one": 4.420432956762882,
+  "iu:sex|f0|d7|pct|raw|one": 4.398954170365969,
+  "item|f0|d7|cnt|share|one": 4.384300438018169,
+  "iu:income|f0|d60|rec|raw|one": 4.3570275914817564,
+  "iu:age|f50|hl3|dur|share|one": 4.353667966148563,
+  "iu:sex|f50|d60|pct|raw|one": 4.331619332546319,
+  "ui:genre|f10|hl30|cnt|lift|mean": 4.327517635268672,
+  "ui:director|f0|d7|dur|lift|sum": 4.237913519548583,
+  "iu:age|f0|d1|rec|raw|one": 4.231672471774115,
+  "iu:sex|f50|d90|dur|lift|one": 4.213388125014771,
+  "item|f90|hl7|dur|share|one": 4.1363623812349735,
+  "iu:kids_flg|f50|d7|pct|raw|one": 4.114126490537547,
+  "iu:kids_flg|f10|hl3|cnt|raw|one": 4.103282176071261,
+  "iu:kids_flg|f10|d3|pct|raw|one": 4.099791102231924,
+  "iu:kids_flg|f0|d1|cnt|share|one": 4.046280840133092,
+  "iu:sex|f0|hl90|cnt|lift|one": 4.041411920776104,
+  "iu:sex|f10|d30|rec|raw|one": 4.0358869517032705,
+  "item|f0|hl14|dur|share|one": 4.034087200996029,
+  "iu:sex|f10|d7|cnt|share|one": 3.977782442723301,
+  "iu:income|f10|hl90|cnt|lift|one": 3.925502560093239,
+  "ui:director|f0|d7|cnt|lift|mean": 3.898311809672073,
+  "iu:kids_flg|f50|d90|pct|raw|one": 3.8793245291095646,
+  "iu:sex|f10|hl7|cnt|raw|one": 3.87145493745538,
+  "iu:sex|f50|hl14|dur|share|one": 3.852410254659915,
+  "iu:sex|f10|d14|cnt|raw|one": 3.834859037445983,
+  "iu:sex|f10|d1|cnt|share|one": 3.823966782710071,
+  "iu:kids_flg|f0|hl30|dur|share|one": 3.8125111902272466,
+  "ui:director|f0|d1|cnt|share|sum": 3.8119026931127182,
+  "iu:sex|f0|d1|cnt|lift|one": 3.7567147612658873,
+  "item|f50|d30|dur|share|one": 3.707700377008978,
+  "iu:kids_flg|f50|all|pct|raw|one": 3.6920336066092156,
+  "iu:age|f10|d7|cnt|share|one": 3.6609069336731612,
+  "iu:age|f50|hl7|cnt|lift|one": 3.6547366853101066,
+  "iu:kids_flg|f0|d7|cnt|share|one": 3.6527295999548266,
+  "item|f10|d1|rec|raw|one": 3.64890598754766,
+  "item|f10|d7|pct|raw|one": 3.641140919979554,
+  "item|f0|d3|pct|raw|one": 3.635034432975416,
+  "iu:sex|f10|hl30|dur|lift|one": 3.612223155574365,
+  "item|f10|d7|cnt|raw|one": 3.593321619963953,
+  "iu:income|f90|d60|cnt|raw|one": 3.5906293744137945,
+  "iu:kids_flg|f10|all|cnt|raw|one": 3.557806112238042,
+  "ui:genre|f0|hl90|cnt|share|sum": 3.5502990865650546,
+  "iu:age|f0|d7|dur|lift|one": 3.5428213910698565,
+  "iu:income|f10|d60|pct|raw|one": 3.534109213263633,
+  "iu:sex|f10|d14|cnt|lift|one": 3.525555972687969,
+  "iu:age|f10|d3|cnt|share|one": 3.5218830672907377,
+  "iu:income|f0|hl3|cnt|share|one": 3.499612492893698,
+  "iu:age|f0|d3|cnt|share|one": 3.473208820750908,
+  "item|f50|d7|pct|raw|one": 3.4630043458530735,
+  "iu:sex|f10|d21|rec|raw|one": 3.4238174590058716,
+  "iu:age|f50|hl14|dur|share|one": 3.3978339290421595,
+  "iu:income|f50|d1|cnt|share|one": 3.36245712740433,
+  "iu:age|f10|hl3|cnt|share|one": 3.357751810924624,
+  "item|f50|d1|dur|share|one": 3.3557973940889276,
+  "iu:sex|f10|hl3|cnt|lift|one": 3.3458334860765047,
+  "iu:age|f0|d90|cnt|raw|one": 3.344478411676235,
+  "iu:kids_flg|f50|d60|dur|share|one": 3.3265292223952025,
+  "iu:sex|f10|all|cnt|share|one": 3.2964174179404004,
+  "iu:income|f0|d14|rec|raw|one": 3.24288572261615,
+  "iu:age|f0|d14|dur|lift|one": 3.2372035456108925,
+  "iu:sex|f10|d1|rec|raw|one": 3.2341355126418696,
+  "item|f0|d14|cnt|share|one": 3.2328087405711114,
+  "iu:income|f50|d90|cnt|raw|one": 3.227846631531718,
+  "ui:director|f0|d7|dur|lift|max": 3.227206349167899,
+  "iu:age|f0|hl30|cnt|raw|one": 3.2019465394035036,
+  "iu:kids_flg|f50|d7|rec|raw|one": 3.1788398576465347,
+  "iu:sex|f0|hl3|cnt|share|one": 3.1761268978857915,
+  "iu:sex|f90|d90|cnt|share|one": 3.16594473673028,
+  "iu:age|f50|d21|dur|lift|one": 3.161427606309018,
+  "iu:sex|f50|hl14|pct|raw|one": 3.154263764405652,
+  "item|f10|d90|cnt|raw|one": 3.1464174920041814,
+  "item|f90|d90|cnt|share|one": 3.143938945937415,
+  "iu:age|f0|d60|pct|raw|one": 3.121524044097375,
+  "item|f0|hl7|cnt|share|one": 3.1139501681894566,
+  "iu:age|f90|d7|cnt|lift|one": 3.1112781780907772,
+  "iu:age|f10|d1|dur|raw|one": 3.0961900453731226,
+  "iu:kids_flg|f90|all|dur|share|one": 3.0917415560872015,
+  "iu:sex|f10|hl7|cnt|share|one": 3.08505517360845,
+  "item|f0|d1|dur|share|one": 3.061762751267347,
+  "iu:income|f0|d90|rec|raw|one": 2.968547439481951,
+  "iu:income|f0|hl3|cnt|raw|one": 2.953165256691017,
+  "iu:sex|f90|hl90|cnt|lift|one": 2.9527079472225766,
+  "iu:sex|f10|d14|cnt|share|one": 2.946189300903249,
+  "iu:age|f10|d3|rec|raw|one": 2.9400363004018715,
+  "iu:income|f10|d60|cnt|share|one": 2.9292429176193404,
+  "iu:age|f50|hl3|pct|raw|one": 2.9202342824168084,
+  "item|f90|d14|rec|raw|one": 2.8881912332387945,
+  "item|f0|d1|dur|raw|one": 2.8868415388159105,
+  "iu:income|f0|hl3|cnt|lift|one": 2.8829340187478465,
+  "item|f0|hl3|cnt|raw|one": 2.8667985673413647,
+  "iu:kids_flg|f90|hl3|pct|raw|one": 2.8435742296960846,
+  "ui:genre|f0|d60|cnt|lift|mean": 2.8284526159542858,
+  "iu:age|f10|d14|cnt|lift|one": 2.8220758211695682,
+  "item|f10|d3|pct|raw|one": 2.8191958999519127,
+  "item|f50|d14|pct|raw|one": 2.8101689898832247,
+  "item|f50|all|dur|share|one": 2.809348759855411,
+  "item|f10|d7|cnt|share|one": 2.80664176931525,
+  "iu:age|f0|d14|cnt|lift|one": 2.805252017499358,
+  "iu:age|f10|d1|rec|raw|one": 2.803635028724389,
+  "item|f0|d21|cnt|raw|one": 2.7596004592853527,
+  "ui:genre|f10|hl90|dur|lift|sum": 2.7525567692271324,
+  "iu:age|f0|d14|dur|raw|one": 2.7320578785690928,
+  "ui:genre|f10|d14|rec|raw|max": 2.7248332923282335,
+  "item|f50|d60|pct|raw|one": 2.714166466020571,
+  "item|f50|d3|rec|raw|one": 2.713597765138968,
+  "ui:genre|f0|d90|dur|raw|sum": 2.712679901015898,
+  "iu:age|f50|d21|cnt|raw|one": 2.697308712699257,
+  "iu:kids_flg|f10|hl14|cnt|share|one": 2.6972403538666376,
+  "iu:income|f50|d7|cnt|raw|one": 2.6910596457874103,
+  "iu:age|f50|d1|pct|raw|one": 2.655928869468908,
+  "ui:genre|f10|d60|dur|share|mean": 2.6537579409161802,
+  "iu:age|f10|d1|dur|lift|one": 2.651856599538455,
+  "ui:actor|f0|hl3|dur|raw|max": 2.6502399863374855,
+  "iu:age|f50|d14|dur|lift|one": 2.6282743802492448,
+  "iu:kids_flg|f50|d60|pct|raw|one": 2.6197982716062906,
+  "iu:age|f90|hl30|pct|raw|one": 2.6167993449414393,
+  "iu:kids_flg|f0|d30|cnt|raw|one": 2.5993829425346773,
+  "item|f0|d3|rec|raw|one": 2.564497993003833,
+  "ui:genre|f0|d30|rec|raw|mean": 2.5615915130239366,
+  "iu:kids_flg|f0|d14|cnt|share|one": 2.560181319892302,
+  "item|f0|hl14|cnt|raw|one": 2.545259077609538,
+  "iu:kids_flg|f10|d1|rec|raw|one": 2.532131655989869,
+  "item|f10|d1|cnt|share|one": 2.5273839936379616,
+  "item|f50|hl7|pct|raw|one": 2.5255182241868614,
+  "ui:genre|f0|hl14|cnt|lift|sum": 2.5171652943756175,
+  "item|f50|hl3|cnt|share|one": 2.503814838775257,
+  "item|f50|d21|pct|raw|one": 2.503809312226698,
+  "item|f0|d30|cnt|raw|one": 2.5004230265045724,
+  "item|f0|d60|dur|raw|one": 2.4988443268057203,
+  "iu:kids_flg|f0|d3|dur|lift|one": 2.4936508917534344,
+  "iu:kids_flg|f0|d7|rec|raw|one": 2.484190709726105,
+  "iu:sex|f50|d90|cnt|share|one": 2.477188970692591,
+  "iu:income|f10|d3|cnt|share|one": 2.4132083138227602,
+  "iu:sex|f50|d90|pct|raw|one": 2.3957455486390513,
+  "ui:genre|f10|hl90|pct|raw|mean": 2.3912907402950765,
+  "iu:sex|f0|hl90|dur|raw|one": 2.3845034834498184,
+  "iu:age|f90|hl14|pct|raw|one": 2.3665336521752964,
+  "iu:sex|f0|d7|rec|raw|one": 2.3621678993082855,
+  "iu:age|f0|hl30|dur|raw|one": 2.361539902496957,
+  "iu:income|f50|d14|pct|raw|one": 2.3454324046007677,
+  "iu:income|f50|d1|rec|raw|one": 2.341841337689787,
+  "iu:age|f0|hl14|cnt|share|one": 2.3416261364162203,
+  "ui:director|f0|d7|dur|lift|mean": 2.3261439493158003,
+  "iu:income|f50|hl3|dur|share|one": 2.3259872581086607,
+  "item|f10|hl3|cnt|share|one": 2.324136227581835,
+  "iu:kids_flg|f50|d90|cnt|lift|one": 2.3149465012336,
+  "iu:kids_flg|f0|hl14|dur|share|one": 2.3081363270963227,
+  "iu:income|f50|d1|dur|lift|one": 2.305753261174039,
+  "iu:age|f50|hl7|cnt|share|one": 2.3011775340717455,
+  "ui:genre|f0|d90|cnt|raw|max": 2.3001499331756166,
+  "iu:age|f0|d7|cnt|raw|one": 2.2983696427613483,
+  "ui:actor|f50|d3|cnt|raw|max": 2.288193577347253,
+  "iu:income|f10|hl14|dur|raw|one": 2.2846035504567586,
+  "iu:kids_flg|f0|d3|pct|raw|one": 2.2824367396608745,
+  "iu:kids_flg|f50|d7|cnt|share|one": 2.265014930201969,
+  "iu:age|f10|d14|cnt|share|one": 2.2595947537135075,
+  "iu:age|f10|hl14|dur|lift|one": 2.2580575796825375,
+  "iu:kids_flg|f50|d90|rec|raw|one": 2.253153511277359,
+  "iu:income|f90|hl14|cnt|lift|one": 2.2517796096523646,
+  "iu:age|f0|d1|cnt|share|one": 2.2508089576717953,
+  "iu:income|f10|d7|rec|raw|one": 2.2498992591532674,
+  "iu:income|f50|d7|rec|raw|one": 2.2359202303411627,
+  "item|f90|all|cnt|share|one": 2.2257764818430954,
+  "iu:income|f0|d1|dur|raw|one": 2.2249527858304874,
+  "iu:sex|f90|d7|cnt|share|one": 2.215662125660781,
+  "ui:genre|f10|d60|cnt|lift|mean": 2.215514231465358,
+  "ui:content_type|f0|all|cnt|lift|one": 2.1931206075244964,
+  "iu:income|f10|hl3|cnt|raw|one": 2.1921347199602863,
+  "iu:kids_flg|f50|hl7|cnt|raw|one": 2.1913758113461106,
+  "iu:sex|f10|d3|cnt|share|one": 2.1907155572701336,
+  "item|f50|d7|cnt|share|one": 2.1831116447070245,
+  "iu:income|f10|d60|rec|raw|one": 2.1757848533064847,
+  "ui:genre|f10|hl90|cnt|share|mean": 2.174199159839295,
+  "item|f10|hl3|dur|raw|one": 2.1698552138574536,
+  "iu:kids_flg|f0|hl90|cnt|raw|one": 2.1673244983929494,
+  "ui:director|f10|hl14|dur|lift|sum": 2.1519992670789754,
+  "iu:sex|f10|all|pct|raw|one": 2.1411610025260064,
+  "ui:content_type|f0|hl7|cnt|lift|one": 2.1271225905861053,
+  "iu:kids_flg|f10|d3|dur|lift|one": 2.124850738958071,
+  "ui:actor|f0|d1|rec|raw|max": 2.111038116173225,
+  "iu:kids_flg|f0|hl7|dur|raw|one": 2.1038976636329836,
+  "item|f50|d90|pct|raw|one": 2.098621090354508,
+  "iu:age|f0|d21|dur|share|one": 2.094081021225191,
+  "iu:income|f0|d7|pct|raw|one": 2.0932708593436393,
+  "iu:sex|f10|d3|dur|lift|one": 2.075562824593454,
+  "iu:kids_flg|f10|hl3|dur|lift|one": 2.0726712664638343,
+  "iu:income|f10|d1|rec|raw|one": 2.070450795211369,
+  "item|f0|d1|cnt|share|one": 2.0687483319713778,
+  "iu:sex|f0|hl30|cnt|share|one": 2.0632964124778437,
+  "iu:sex|f10|hl3|dur|share|one": 2.0624704186988922,
+  "user|f0|d7|pct|raw|one": 2.0561377564547056,
+  "ui:actor|f10|hl90|dur|lift|sum": 2.053964008594864
+ },
+ "trace": [
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 202,
+   "ndcg": 0.14502910208534758,
+   "sec": 47.54520130157471
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 218,
+   "ndcg": 0.14952101616445618,
+   "sec": 48.863232135772705
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 203,
+   "ndcg": 0.14915124259258766,
+   "sec": 39.10720372200012
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 201,
+   "ndcg": 0.1491255309912844,
+   "sec": 50.70242524147034
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 214,
+   "ndcg": 0.14848605613676336,
+   "sec": 48.2539701461792
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 201,
+   "ndcg": 0.14886949235765917,
+   "sec": 44.56920576095581
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 212,
+   "ndcg": 0.14761869688815463,
+   "sec": 40.087860107421875
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 217,
+   "ndcg": 0.14955250127905956,
+   "sec": 50.389968395233154
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 207,
+   "ndcg": 0.15076643844800025,
+   "sec": 46.48749589920044
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 208,
+   "ndcg": 0.15186433358599588,
+   "sec": 48.60697627067566
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 204,
+   "ndcg": 0.1509389513043919,
+   "sec": 44.962016105651855
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 207,
+   "ndcg": 0.15025035363773592,
+   "sec": 53.213911056518555
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 205,
+   "ndcg": 0.14963300582810138,
+   "sec": 48.99448013305664
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 206,
+   "ndcg": 0.14962255358753396,
+   "sec": 47.538158655166626
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 200,
+   "ndcg": 0.14879075635508804,
+   "sec": 46.17040681838989
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 200,
+   "ndcg": 0.14872905263592662,
+   "sec": 47.54300785064697
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 204,
+   "ndcg": 0.1513916092444497,
+   "sec": 57.75347375869751
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 205,
+   "ndcg": 0.1471094322332042,
+   "sec": 41.03914189338684
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 208,
+   "ndcg": 0.14951777865816313,
+   "sec": 49.674251317977905
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 204,
+   "ndcg": 0.14946120495285295,
+   "sec": 39.5580632686615
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 203,
+   "ndcg": 0.1509173910332479,
+   "sec": 42.92447543144226
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 216,
+   "ndcg": 0.1514842516023965,
+   "sec": 57.539214849472046
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 202,
+   "ndcg": 0.15019098904855294,
+   "sec": 39.658857107162476
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 204,
+   "ndcg": 0.1497258340356612,
+   "sec": 47.20980763435364
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 205,
+   "ndcg": 0.14692102448545052,
+   "sec": 48.18950533866882
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 216,
+   "ndcg": 0.15186011711783376,
+   "sec": 46.228055000305176
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 219,
+   "ndcg": 0.14977874870446065,
+   "sec": 51.103994369506836
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 205,
+   "ndcg": 0.14908846145648788,
+   "sec": 45.11123275756836
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 210,
+   "ndcg": 0.1476673861550414,
+   "sec": 46.96337056159973
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 221,
+   "ndcg": 0.14755887717380878,
+   "sec": 69.01741242408752
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 217,
+   "ndcg": 0.148822818788069,
+   "sec": 39.832576751708984
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 215,
+   "ndcg": 0.14936599887995958,
+   "sec": 43.83891201019287
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 200,
+   "ndcg": 0.14767286467079496,
+   "sec": 51.153183937072754
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 217,
+   "ndcg": 0.15074444440311063,
+   "sec": 58.32124090194702
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 201,
+   "ndcg": 0.146981877687148,
+   "sec": 42.08722758293152
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 212,
+   "ndcg": 0.1503019102085325,
+   "sec": 50.06915616989136
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 201,
+   "ndcg": 0.15081839983712741,
+   "sec": 52.500112771987915
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 202,
+   "ndcg": 0.14831657977318344,
+   "sec": 44.98587942123413
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 201,
+   "ndcg": 0.15046492444714846,
+   "sec": 47.70429444313049
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 219,
+   "ndcg": 0.14949146581850295,
+   "sec": 62.63325905799866
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 212,
+   "ndcg": 0.15065900710870223,
+   "sec": 44.68427777290344
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 200,
+   "ndcg": 0.1501853576853425,
+   "sec": 50.39977240562439
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 206,
+   "ndcg": 0.14812621597698694,
+   "sec": 49.723450660705566
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 206,
+   "ndcg": 0.14780016629058848,
+   "sec": 38.057504177093506
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 219,
+   "ndcg": 0.15089554210140324,
+   "sec": 56.700050592422485
+  },
+  {
+   "stage": "screen",
+   "feature": null,
+   "n_feats": 121,
+   "ndcg": 0.14927052230162452,
+   "sec": 27.77348041534424
+  },
+  {
+   "stage": "base",
+   "feature": null,
+   "n_feats": 0,
+   "ndcg": 0.14167035807703973,
+   "sec": 10.390899419784546
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f0|d21|rec|raw|one",
+   "n_feats": 1,
+   "ndcg": 0.1415270320861497,
+   "sec": 9.26812744140625
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f10|d14|rec|raw|one",
+   "n_feats": 1,
+   "ndcg": 0.1400712978488012,
+   "sec": 6.345262289047241
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f10|d21|cnt|share|one",
+   "n_feats": 1,
+   "ndcg": 0.1442320373727974,
+   "sec": 5.5785393714904785,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f10|d90|cnt|raw|one",
+   "n_feats": 2,
+   "ndcg": 0.14276114361068926,
+   "sec": 6.11570405960083
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f0|d7|rec|raw|one",
+   "n_feats": 2,
+   "ndcg": 0.14580999562573402,
+   "sec": 9.867332458496094,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "item|f0|d14|rec|raw|one",
+   "n_feats": 3,
+   "ndcg": 0.14716599529060723,
+   "sec": 6.763484716415405,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "item|f10|d30|pct|raw|one",
+   "n_feats": 4,
+   "ndcg": 0.14714785467564948,
+   "sec": 12.562430381774902
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f0|hl7|dur|share|one",
+   "n_feats": 4,
+   "ndcg": 0.1447220922590394,
+   "sec": 10.589027881622314
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f10|hl90|cnt|raw|one",
+   "n_feats": 4,
+   "ndcg": 0.1452101233709762,
+   "sec": 7.7369115352630615
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f50|d14|rec|raw|one",
+   "n_feats": 4,
+   "ndcg": 0.1462076275101607,
+   "sec": 8.683285236358643
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f50|d60|dur|lift|one",
+   "n_feats": 4,
+   "ndcg": 0.1453844029578408,
+   "sec": 10.253106832504272
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f10|hl14|dur|lift|one",
+   "n_feats": 4,
+   "ndcg": 0.14288614898425903,
+   "sec": 5.629456520080566
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f0|d1|rec|raw|one",
+   "n_feats": 4,
+   "ndcg": 0.14513705084451417,
+   "sec": 9.628251791000366
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f0|d7|dur|lift|one",
+   "n_feats": 4,
+   "ndcg": 0.14866107404831616,
+   "sec": 7.371106147766113,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f0|d3|cnt|raw|one",
+   "n_feats": 5,
+   "ndcg": 0.14822586253701525,
+   "sec": 8.553828477859497
+  },
+  {
+   "stage": "greedy",
+   "feature": "item|f50|d1|dur|raw|one",
+   "n_feats": 5,
+   "ndcg": 0.14694577068000184,
+   "sec": 10.220227003097534
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f10|d14|rec|raw|one",
+   "n_feats": 5,
+   "ndcg": 0.14862147113606902,
+   "sec": 8.414883136749268
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f10|d14|rec|raw|one",
+   "n_feats": 5,
+   "ndcg": 0.14818258904449705,
+   "sec": 8.767977714538574
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f10|hl30|cnt|raw|one",
+   "n_feats": 5,
+   "ndcg": 0.1471853579414834,
+   "sec": 8.541134595870972
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f0|d7|cnt|share|one",
+   "n_feats": 5,
+   "ndcg": 0.14816114461134258,
+   "sec": 6.363662242889404
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f0|hl90|dur|raw|one",
+   "n_feats": 5,
+   "ndcg": 0.1486965016680227,
+   "sec": 8.962557077407837
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f0|d1|cnt|lift|one",
+   "n_feats": 5,
+   "ndcg": 0.14760972948743,
+   "sec": 9.074852705001831
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f0|d7|rec|raw|one",
+   "n_feats": 5,
+   "ndcg": 0.14904125479991967,
+   "sec": 8.550776720046997
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f10|d21|cnt|raw|one",
+   "n_feats": 5,
+   "ndcg": 0.1492266252225989,
+   "sec": 9.083510160446167,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "item|f0|d21|pct|raw|one",
+   "n_feats": 6,
+   "ndcg": 0.1492876706774714,
+   "sec": 7.205597162246704
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f50|hl30|pct|raw|one",
+   "n_feats": 6,
+   "ndcg": 0.15005292056842776,
+   "sec": 6.7183451652526855,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f10|d14|rec|raw|one",
+   "n_feats": 7,
+   "ndcg": 0.14954560582470713,
+   "sec": 12.239830255508423
+  },
+  {
+   "stage": "greedy",
+   "feature": "item|f50|d1|rec|raw|one",
+   "n_feats": 7,
+   "ndcg": 0.14939675053603432,
+   "sec": 7.111444711685181
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f90|d7|rec|raw|one",
+   "n_feats": 7,
+   "ndcg": 0.15022988948046082,
+   "sec": 6.890068054199219
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f10|hl14|cnt|lift|one",
+   "n_feats": 7,
+   "ndcg": 0.15020573296631526,
+   "sec": 6.698562145233154
+  },
+  {
+   "stage": "greedy",
+   "feature": "item|f0|d1|cnt|raw|one",
+   "n_feats": 7,
+   "ndcg": 0.15007997443073726,
+   "sec": 9.12700605392456
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f50|d60|cnt|lift|one",
+   "n_feats": 7,
+   "ndcg": 0.14952567169220918,
+   "sec": 6.9314210414886475
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f0|d14|pct|raw|one",
+   "n_feats": 7,
+   "ndcg": 0.14956156319026076,
+   "sec": 6.6079912185668945
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f0|hl90|cnt|share|one",
+   "n_feats": 7,
+   "ndcg": 0.14812899721590794,
+   "sec": 6.394270420074463
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f50|d21|dur|lift|one",
+   "n_feats": 7,
+   "ndcg": 0.1494424938136229,
+   "sec": 6.489881277084351
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f50|d1|rec|raw|one",
+   "n_feats": 7,
+   "ndcg": 0.149252753012975,
+   "sec": 8.866974353790283
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f10|d90|pct|raw|one",
+   "n_feats": 7,
+   "ndcg": 0.15005007346824367,
+   "sec": 9.255334377288818
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f90|d30|cnt|lift|one",
+   "n_feats": 7,
+   "ndcg": 0.15072188570523035,
+   "sec": 10.395130634307861,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f10|hl3|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.1495448919266812,
+   "sec": 10.620230436325073
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f0|d7|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.1502122395064746,
+   "sec": 6.987022638320923
+  },
+  {
+   "stage": "greedy",
+   "feature": "item|f0|d60|cnt|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.14893227871842893,
+   "sec": 10.74164605140686
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f50|d14|rec|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.1489982895431378,
+   "sec": 10.359151363372803
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f90|hl3|dur|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.14981026271871287,
+   "sec": 7.1805243492126465
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f0|d1|dur|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.1485949258969958,
+   "sec": 7.44855260848999
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f0|d7|dur|share|one",
+   "n_feats": 8,
+   "ndcg": 0.1495313072847153,
+   "sec": 10.96040654182434
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:kids_flg|f50|d90|cnt|share|one",
+   "n_feats": 8,
+   "ndcg": 0.14824829925451594,
+   "sec": 10.048474073410034
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f0|d90|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.14924073962334114,
+   "sec": 7.406996726989746
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f50|d3|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.15002986248181605,
+   "sec": 8.20328688621521
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f10|d1|dur|share|one",
+   "n_feats": 8,
+   "ndcg": 0.14605971391756556,
+   "sec": 7.651687145233154
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f0|d1|cnt|share|one",
+   "n_feats": 8,
+   "ndcg": 0.148677199125485,
+   "sec": 9.087576150894165
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:age|f50|hl7|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.149784720503163,
+   "sec": 10.095808506011963
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:income|f50|hl90|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.14907067633936444,
+   "sec": 8.23446249961853
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f90|hl90|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.14838387863606714,
+   "sec": 5.900757551193237
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f90|hl14|cnt|share|one",
+   "n_feats": 8,
+   "ndcg": 0.149132661014574,
+   "sec": 9.927799940109253
+  },
+  {
+   "stage": "greedy",
+   "feature": "item|f50|d21|cnt|share|one",
+   "n_feats": 8,
+   "ndcg": 0.14750416039480604,
+   "sec": 8.486539125442505
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f0|d7|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.1493388954100115,
+   "sec": 12.222872018814087
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f50|d60|pct|raw|one",
+   "n_feats": 8,
+   "ndcg": 0.1489546603140037,
+   "sec": 10.361464262008667
+  },
+  {
+   "stage": "greedy",
+   "feature": "ui:genre|f10|hl30|cnt|lift|mean",
+   "n_feats": 8,
+   "ndcg": 0.15154931263877455,
+   "sec": 7.663843393325806,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "ui:director|f0|d7|dur|lift|sum",
+   "n_feats": 9,
+   "ndcg": 0.15221500701058513,
+   "sec": 9.778225660324097,
+   "accepted": true
+  },
+  {
+   "stage": "greedy",
+   "feature": "iu:sex|f50|d90|dur|lift|one",
+   "n_feats": 10,
+   "ndcg": 0.15060359029617612,
+   "sec": 8.922885417938232
+  },
+  {
+   "stage": "mutate",
+   "feature": "ui:director|f0|d7|dur|lift|sum -> ui:director|f50|d7|dur|lift|sum",
+   "n_feats": 9,
+   "ndcg": 0.15163649734243562,
+   "sec": 9.842018604278564
+  },
+  {
+   "stage": "mutate",
+   "feature": "ui:director|f0|d7|dur|lift|sum -> ui:director|f0|hl3|dur|lift|sum",
+   "n_feats": 9,
+   "ndcg": 0.1492601435819512,
+   "sec": 13.494386672973633
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:age|f0|d7|rec|raw|one -> iu:age|f10|d7|rec|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15024089563129955,
+   "sec": 9.657069444656372
+  },
+  {
+   "stage": "mutate",
+   "feature": "item|f0|d14|rec|raw|one -> item|f0|d30|rec|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.1515844366041207,
+   "sec": 10.27987289428711
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:kids_flg|f10|d21|cnt|raw|one -> iu:kids_flg|f10|hl30|cnt|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15242256935004087,
+   "sec": 9.822450399398804
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:kids_flg|f10|d21|cnt|raw|one -> iu:kids_flg|f10|d21|dur|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.1524556136319492,
+   "sec": 8.636124849319458
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:kids_flg|f10|d21|cnt|raw|one -> iu:kids_flg|f50|d21|cnt|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.1522170301808067,
+   "sec": 9.98472785949707
+  },
+  {
+   "stage": "mutate",
+   "feature": "ui:director|f0|d7|dur|lift|sum -> ui:director|f0|hl90|dur|lift|sum",
+   "n_feats": 9,
+   "ndcg": 0.1503816630826173,
+   "sec": 10.376620769500732
+  },
+  {
+   "stage": "mutate",
+   "feature": "ui:director|f0|d7|dur|lift|sum -> ui:director|f0|all|dur|lift|sum",
+   "n_feats": 9,
+   "ndcg": 0.15028572404621296,
+   "sec": 8.77636170387268
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:kids_flg|f10|d21|cnt|raw|one -> iu:kids_flg|f10|d14|cnt|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.150857018387644,
+   "sec": 9.524543046951294
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:kids_flg|f10|d21|cnt|share|one -> iu:kids_flg|f0|d21|cnt|share|one",
+   "n_feats": 9,
+   "ndcg": 0.15127399559409418,
+   "sec": 9.8215491771698
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:income|f90|d30|cnt|lift|one -> iu:income|f90|hl3|cnt|lift|one",
+   "n_feats": 9,
+   "ndcg": 0.15112665700320962,
+   "sec": 10.82925796508789
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:sex|f50|hl30|pct|raw|one -> iu:sex|f50|hl30|cnt|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15042708271008554,
+   "sec": 9.250524997711182
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:sex|f50|hl30|pct|raw|one -> iu:sex|f0|hl30|pct|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15170209258815026,
+   "sec": 9.135661125183105
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:age|f0|d7|rec|raw|one -> iu:age|f0|d7|dur|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.150323101072491,
+   "sec": 11.302359342575073
+  },
+  {
+   "stage": "mutate",
+   "feature": "ui:genre|f10|hl30|cnt|lift|mean -> ui:genre|f90|hl30|cnt|lift|mean",
+   "n_feats": 9,
+   "ndcg": 0.15021746202270894,
+   "sec": 10.870129108428955
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:sex|f0|d7|dur|lift|one -> iu:sex|f0|d21|dur|lift|one",
+   "n_feats": 9,
+   "ndcg": 0.15223707466799358,
+   "sec": 10.951063871383667
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:age|f0|d7|rec|raw|one -> iu:age|f0|d3|rec|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15112974975855825,
+   "sec": 11.348934173583984
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:income|f90|d30|cnt|lift|one -> iu:income|f90|d90|cnt|lift|one",
+   "n_feats": 9,
+   "ndcg": 0.15184309179553637,
+   "sec": 8.316128492355347
+  },
+  {
+   "stage": "mutate",
+   "feature": "item|f0|d14|rec|raw|one -> item|f10|d14|rec|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.1509846790706576,
+   "sec": 9.466719388961792
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:income|f90|d30|cnt|lift|one -> iu:income|f90|hl90|cnt|lift|one",
+   "n_feats": 9,
+   "ndcg": 0.15018175577110635,
+   "sec": 10.733013391494751
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:kids_flg|f10|d21|cnt|raw|one -> iu:kids_flg|f10|all|cnt|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15126804422772905,
+   "sec": 13.073307037353516
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:income|f90|d30|cnt|lift|one -> iu:income|f90|all|cnt|lift|one",
+   "n_feats": 9,
+   "ndcg": 0.1518644561792741,
+   "sec": 8.912740707397461
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:kids_flg|f10|d21|cnt|raw|one -> iu:kids_flg|f10|d3|cnt|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15207617180978306,
+   "sec": 9.705361127853394
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:income|f90|d30|cnt|lift|one -> iu:income|f90|d1|cnt|lift|one",
+   "n_feats": 9,
+   "ndcg": 0.1502932462964576,
+   "sec": 11.105340003967285
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:age|f0|d7|rec|raw|one -> iu:age|f0|all|rec|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15163750589543026,
+   "sec": 10.630823612213135
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:sex|f50|hl30|pct|raw|one -> iu:sex|f90|hl30|pct|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15027018788824295,
+   "sec": 9.5993070602417
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:kids_flg|f10|d21|cnt|raw|one -> iu:kids_flg|f10|d90|cnt|raw|one",
+   "n_feats": 9,
+   "ndcg": 0.15210103388544524,
+   "sec": 10.878628253936768
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:sex|f0|d7|dur|lift|one -> iu:sex|f0|hl90|dur|lift|one",
+   "n_feats": 9,
+   "ndcg": 0.1516896794543234,
+   "sec": 12.915945053100586
+  },
+  {
+   "stage": "mutate",
+   "feature": "iu:income|f90|d30|cnt|lift|one -> iu:income|f90|hl14|cnt|lift|one",
+   "n_feats": 9,
+   "ndcg": 0.15290003523360285,
+   "sec": 10.37085771560669,
+   "accepted": true
+  }
+ ],
+ "space_size": 9476,
+ "rows": {
+  "train": 354051,
+  "val": 548539
+ },
+ "eps": 0.0005,
+ "chunk": 200,
+ "seconds": {
+  "screen": 2195.4709191322327,
+  "screen_sql": 1283.8522090911865,
+  "base": 10.39090347290039,
+  "greedy": 512.1477496623993,
+  "mutate": 309.6119477748871
+ },
+ "fits": {
+  "screen": 46,
+  "base": 1,
+  "greedy": 60,
+  "mutate": 30
+ },
+ "env": {
+  "device": "gpu",
+  "host": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "cpus": 2,
+  "n_users": 100000,
+  "train_weeks": 3
+ },
+ "peak_mb": 3832.50390625
+}

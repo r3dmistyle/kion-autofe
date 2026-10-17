@@ -5,3 +5,4 @@ cache/
 logs/
 results/*/peruser/
 .DS_Store
+catboost_info/

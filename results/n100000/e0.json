@@ -1,0 +1,89 @@
+{
+ "prep_s": 40.97874474525452,
+ "events": 570409,
+ "folds": {
+  "train3": {
+   "cand_rows": 1283626.0,
+   "users": 9131.0,
+   "cand_positives": 9969.0,
+   "label_items": 24656.0,
+   "cand_recall": 0.489068316929093
+  },
+  "train2": {
+   "cand_rows": 1342512.0,
+   "users": 9868.0,
+   "cand_positives": 10279.0,
+   "label_items": 26362.0,
+   "cand_recall": 0.47138680953682766
+  },
+  "train": {
+   "cand_rows": 1417696.0,
+   "users": 10366.0,
+   "cand_positives": 11377.0,
+   "label_items": 28391.0,
+   "cand_recall": 0.4724975927214755
+  },
+  "val": {
+   "cand_rows": 1493159.0,
+   "users": 10904.0,
+   "cand_positives": 11775.0,
+   "label_items": 30052.0,
+   "cand_recall": 0.46262004836005083
+  },
+  "test": {
+   "cand_rows": 1542412.0,
+   "users": 11484.0,
+   "cand_positives": 12402.0,
+   "label_items": 31450.0,
+   "cand_recall": 0.4589470824762002
+  }
+ },
+ "rows": [
+  {
+   "model": "popular_7d",
+   "fold": "val",
+   "ndcg@10": 0.13539123183694923,
+   "recall@10": 0.20717166433855885,
+   "map@10": 0.09259581215743547,
+   "auc": 0.7585755451466668
+  },
+  {
+   "model": "item_knn",
+   "fold": "val",
+   "ndcg@10": 0.11216639131640048,
+   "recall@10": 0.16522949958478228,
+   "map@10": 0.0778274326819258,
+   "auc": 0.6180058043042163
+  },
+  {
+   "model": "popular_7d",
+   "fold": "test",
+   "ndcg@10": 0.12974249785394407,
+   "recall@10": 0.20682711198065004,
+   "map@10": 0.08483581635241916,
+   "auc": 0.745730526438394
+  },
+  {
+   "model": "item_knn",
+   "fold": "test",
+   "ndcg@10": 0.11167728634750607,
+   "recall@10": 0.16799595589301183,
+   "map@10": 0.07547886733579354,
+   "auc": 0.6220302630561787
+  }
+ ],
+ "cold_test_popular": {
+  "users": 5821,
+  "ndcg@10": 0.24892188384961397,
+  "recall@10": 0.37023021516614946,
+  "map@10": 0.18736728681273168
+ },
+ "env": {
+  "device": "gpu",
+  "host": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "cpus": 2,
+  "n_users": 100000,
+  "train_weeks": 3
+ },
+ "peak_mb": 2680.375
+}
